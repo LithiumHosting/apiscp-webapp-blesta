@@ -13,7 +13,7 @@ Edit config/custom/boot.php, create if not exists:
 
 ```php
 <?php
-	\a23r::registerModule('li_blesta', \lithiumhosting\blesta\Blesta_Module::class);
+	\a23r::registerModule('liblesta', \lithiumhosting\blesta\Blesta_Module::class);
 	\Module\Support\Webapps::registerApplication('blesta', \apisnetworks\blesta\Handler::class);
 ```
 

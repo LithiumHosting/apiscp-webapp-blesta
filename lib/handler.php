@@ -85,7 +85,7 @@ class Handler extends Unknown {
      */
     public function getClassMapping(): string
     {
-        return 'li_blesta';
+        return 'liblesta';
     }
 
     public function handle(array $params): bool
